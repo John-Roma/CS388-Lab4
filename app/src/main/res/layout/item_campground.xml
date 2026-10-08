@@ -29,6 +29,8 @@
         android:text="Campground Name"
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
         android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/campgroundImage"
         app:layout_constraintTop_toTopOf="@id/campgroundImage" />
@@ -46,6 +48,8 @@
         android:text="Location"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textStyle="italic"
+        android:textColor="#757575"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/campgroundImage"
         app:layout_constraintTop_toBottomOf="@id/campgroundName" />
